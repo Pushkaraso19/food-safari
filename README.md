@@ -227,7 +227,7 @@ Template file: `frontend/.env.example`
 
 ## Deployment and Hosting
 
-This project is fully hosted on **Vercel** for both frontend and backend deployment:
+This project is deployed across multiple platforms for optimal performance:
 - **Frontend:** Vercel (optimized for Next.js)
 - **Backend:** Render
 
@@ -254,19 +254,8 @@ The frontend is deployed on **Vercel**, a platform optimized for Next.js applica
    - **Start Command:** `npm start`
 4. Add environment variables:
    - `PORT` = `4000` (or leave empty for Render to assign)
-  - `FRONTEND_URL` = `https://food-safari-catererdirectory.vercel.app/`
+   - `FRONTEND_URL` = `https://food-safari-catererdirectory.vercel.app/`
 5. Deploy and note the backend URL (e.g., `https://your-backend.onrender.com`)
-
-### Frontend Deployment (Vercel)
-
-1. Connect your GitHub repository on [Vercel](https://vercel.com/)
-2. Configure build settings:
-   - **Base directory:** `frontend`
-   - **Build command:** `npm run build`
-   - **Publish directory:** `.next`
-3. Add environment variable:
-   - `NEXT_PUBLIC_API_URL` = Your deployed backend URL from Render
-4. Deploy and your site will be live at `https://food-safari-catererdirectory.vercel.app/`
 
 ### CORS Configuration
 
