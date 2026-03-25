@@ -1,0 +1,986 @@
+[
+  {
+    "id": "4a51c18a-e24b-40c1-835f-c8eaeeae66ca",
+    "name": "Saffron Table Collective",
+    "location": "Kochi, Kerala",
+    "pricePerPlate": 224,
+    "cuisines": [
+      "BBQ",
+      "Continental",
+      "American"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "2cc0b048-2ee9-4716-a039-8df9a5b28c9c",
+    "name": "Emerald Station Collective",
+    "location": "Amritsar, Punjab",
+    "pricePerPlate": 1136,
+    "cuisines": [
+      "Hyderabadi",
+      "Mughlai",
+      "Andhra"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "26ff58a8-ddfa-4dc5-81ca-6fce7a1c46cc",
+    "name": "Signature Feast Events",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 650,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental",
+      "Punjabi"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "35dad4a3-b565-42fd-bb1a-fba77132e690",
+    "name": "Epicure Flavors Events",
+    "location": "Kanpur, Uttar Pradesh",
+    "pricePerPlate": 777,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese",
+      "Punjabi"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "4939476c-7d4b-4281-b223-fa69add0fda6",
+    "name": "Casa Bella Catering",
+    "location": "Udaipur, Rajasthan",
+    "pricePerPlate": 864,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "5938b5a6-e7a6-478d-ad26-dbd2db09d6e0",
+    "name": "Olive Dastarkhwan Studios",
+    "location": "Kanpur, Uttar Pradesh",
+    "pricePerPlate": 1448,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese",
+      "Mexican"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "2f844c2a-1a79-4442-baa9-bf229f6aba5a",
+    "name": "Crimson Harvest Hospitality",
+    "location": "Patna, Bihar",
+    "pricePerPlate": 418,
+    "cuisines": [
+      "Street Food",
+      "Chaat",
+      "North Indian",
+      "Italian"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "4dec5f7d-1990-432c-9d5c-4c7534e6ebc9",
+    "name": "Prime Banquet Caterers",
+    "location": "Delhi, NCR",
+    "pricePerPlate": 677,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental",
+      "Thai"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "8ee916f4-c43f-4cdb-a81c-265167862fd5",
+    "name": "Classic Catering Works",
+    "location": "Goa, Goa",
+    "pricePerPlate": 696,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese",
+      "Italian"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": "5308bb26-1dbe-47ad-b328-a7d581e87dea",
+    "name": "Signature Supper Collective",
+    "location": "Vadodara, Gujarat",
+    "pricePerPlate": 1130,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "ef0827a4-bf24-4b7e-a0f5-2e776e2f8ea1",
+    "name": "Epicure Kitchen Caterers",
+    "location": "Jaipur, Rajasthan",
+    "pricePerPlate": 673,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "e68a008b-d23b-48ff-8c45-c2ce8eaf0d6f",
+    "name": "Emerald Cuisine Caterers",
+    "location": "Delhi, NCR",
+    "pricePerPlate": 1155,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": "53ce9f53-2a1f-4cea-bf28-a48ce106e0ca",
+    "name": "The Ottoman Spoon",
+    "location": "Kolkata, West Bengal",
+    "pricePerPlate": 1312,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 5
+  },
+  {
+    "id": "6d34cbe6-d17a-41ed-9aef-3fd7b0828706",
+    "name": "Royal Gourmet House",
+    "location": "Faridabad, Haryana",
+    "pricePerPlate": 983,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese",
+      "Hyderabadi"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "5bd6ee59-e81f-43ee-b74b-a38df51f6e2b",
+    "name": "Blue Flavors Studios",
+    "location": "Thane, Maharashtra",
+    "pricePerPlate": 1171,
+    "cuisines": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "134240a4-0641-461a-a23f-8e43b336ad54",
+    "name": "Velvet Celebrations Co.",
+    "location": "Coimbatore, Tamil Nadu",
+    "pricePerPlate": 682,
+    "cuisines": [
+      "Mexican",
+      "Italian",
+      "Continental",
+      "Lebanese"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "c9549f48-2773-44a3-a0a2-83b81e297b8f",
+    "name": "Crimson Harvest House",
+    "location": "Bhopal, Madhya Pradesh",
+    "pricePerPlate": 445,
+    "cuisines": [
+      "Kerala",
+      "Seafood",
+      "South Indian"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "bc988839-0e9f-4182-a6d1-56c8ea961f10",
+    "name": "Prime Dastarkhwan Hospitality",
+    "location": "Pune, Maharashtra",
+    "pricePerPlate": 591,
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Chinese",
+      "Punjabi"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "73a5790e-4872-4e55-8d7f-2e2da0ed0382",
+    "name": "Silver Palate Hospitality",
+    "location": "Howrah, West Bengal",
+    "pricePerPlate": 1005,
+    "cuisines": [
+      "Maharashtrian",
+      "Malvani",
+      "Seafood"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": "94db48c7-d7fc-474f-92a0-ad3bded4ecf8",
+    "name": "Saffron Harvest Co.",
+    "location": "Jaipur, Rajasthan",
+    "pricePerPlate": 800,
+    "cuisines": [
+      "Kerala",
+      "Seafood",
+      "South Indian"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "0b6bedcc-a238-42ee-ac07-930e21041de7",
+    "name": "Nordic Harvest Catering",
+    "location": "Kochi, Kerala",
+    "pricePerPlate": 508,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "f0c9fc7b-af39-44f1-b475-3029d0f87911",
+    "name": "Classic Delights Studios",
+    "location": "Udaipur, Rajasthan",
+    "pricePerPlate": 1110,
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Chinese"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "a1271252-e2dc-41d8-b39c-08d7f7a1a357",
+    "name": "Classic Kitchen Events",
+    "location": "Indore, Madhya Pradesh",
+    "pricePerPlate": 802,
+    "cuisines": [
+      "Lebanese",
+      "Mediterranean",
+      "Vegan",
+      "North Indian"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": "08199969-d17a-49f5-8f71-488a12db3da4",
+    "name": "Signature Celebrations House",
+    "location": "Howrah, West Bengal",
+    "pricePerPlate": 718,
+    "cuisines": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian",
+      "Hyderabadi"
+    ],
+    "rating": 4.8
+  },
+  {
+    "id": "04a019f8-787a-414d-8125-ba22a4597955",
+    "name": "Velvet Delights Caterers",
+    "location": "Howrah, West Bengal",
+    "pricePerPlate": 879,
+    "cuisines": [
+      "Jain",
+      "Gujarati",
+      "North Indian"
+    ],
+    "rating": 4
+  },
+  {
+    "id": "b93f9362-c2d0-4377-915b-b74c1b438e2c",
+    "name": "Epicure Gourmet Hospitality",
+    "location": "Kolkata, West Bengal",
+    "pricePerPlate": 925,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "ef001b43-b84e-45aa-ae78-042ac9b03c34",
+    "name": "Silver Celebrations House",
+    "location": "Vadodara, Gujarat",
+    "pricePerPlate": 1033,
+    "cuisines": [
+      "Italian",
+      "Mediterranean",
+      "Continental",
+      "Mexican"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "c3a3e0d0-af64-49a7-bc5c-427711812a46",
+    "name": "Olive Kitchen Hospitality",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 1126,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian",
+      "Punjabi"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": "ea9fa01f-cf1e-41af-bead-ef6a2bc2542c",
+    "name": "Grand Station Hospitality",
+    "location": "Delhi, NCR",
+    "pricePerPlate": 1408,
+    "cuisines": [
+      "Street Food",
+      "Chaat",
+      "North Indian",
+      "Vegan"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "fd9a7eb5-fcea-49b9-97b6-ad418b0e7097",
+    "name": "Golden Flavors Co.",
+    "location": "Indore, Madhya Pradesh",
+    "pricePerPlate": 1367,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean",
+      "South Indian"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "32ec2767-4118-4f72-b1e4-bdda9e6d72d6",
+    "name": "Velvet Buffet Events",
+    "location": "Pune, Maharashtra",
+    "pricePerPlate": 802,
+    "cuisines": [
+      "Street Food",
+      "Chaat",
+      "North Indian",
+      "Mexican"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "b58f5d9d-14a6-4cad-aac9-d534da8c6717",
+    "name": "Crimson Supper Hospitality",
+    "location": "Kochi, Kerala",
+    "pricePerPlate": 750,
+    "cuisines": [
+      "Maharashtrian",
+      "Malvani",
+      "Seafood"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "d4d89830-b5e1-4999-b416-5ff932c3dce8",
+    "name": "Sakura Social Dining",
+    "location": "Ranchi, Jharkhand",
+    "pricePerPlate": 1307,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean",
+      "North Indian"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "6aad5f99-0c15-4edc-9c0f-bb940529a132",
+    "name": "Prime Supper Studios",
+    "location": "Lucknow, Uttar Pradesh",
+    "pricePerPlate": 216,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "689225fd-696a-461c-ab78-0d09f67c72e2",
+    "name": "Mediterraneo Feast Co.",
+    "location": "Lucknow, Uttar Pradesh",
+    "pricePerPlate": 1235,
+    "cuisines": [
+      "Kerala",
+      "Seafood",
+      "South Indian"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "73cd37ed-7e7b-45c3-ab8d-dcaa5cd147fe",
+    "name": "La Fiesta Catering Studio",
+    "location": "Faridabad, Haryana",
+    "pricePerPlate": 1024,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "4180e255-a007-40e5-b2a6-baf79b073be6",
+    "name": "Crimson Platter Hospitality",
+    "location": "Mysuru, Karnataka",
+    "pricePerPlate": 1008,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental",
+      "Bengali"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "8df7f882-3e12-4271-ac64-7f84c1e9eaa8",
+    "name": "Regal Celebrations Hospitality",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 700,
+    "cuisines": [
+      "Hyderabadi",
+      "Mughlai",
+      "Andhra"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "aa73c2c9-fa13-430e-ac81-cc645e3a6be4",
+    "name": "Lotus Delights Caterers",
+    "location": "Navi Mumbai, Maharashtra",
+    "pricePerPlate": 899,
+    "cuisines": [
+      "Mexican",
+      "Italian",
+      "Continental",
+      "Gujarati"
+    ],
+    "rating": 5
+  },
+  {
+    "id": "66754797-307b-4d62-8199-1e6ec1c7dff2",
+    "name": "Olive Platter Caterers",
+    "location": "Noida, Uttar Pradesh",
+    "pricePerPlate": 536,
+    "cuisines": [
+      "Thai",
+      "Chinese",
+      "Pan-Asian"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "c5a575c2-e5c2-490c-93b8-79cb995b00e7",
+    "name": "Regal Cuisine Works",
+    "location": "Udaipur, Rajasthan",
+    "pricePerPlate": 613,
+    "cuisines": [
+      "Jain",
+      "Gujarati",
+      "North Indian"
+    ],
+    "rating": 3.9
+  },
+  {
+    "id": "f4a1320d-b50a-4e1c-ba26-2a886d491411",
+    "name": "Nawab Station Events",
+    "location": "Bangalore, Karnataka",
+    "pricePerPlate": 692,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental",
+      "Thai"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": "49684617-3682-4d2b-afc7-65c17f0f4a54",
+    "name": "Lotus Table Works",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 1360,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "c289f0f9-db3d-4f3d-ab73-70ae75d8f9f0",
+    "name": "Bosphorus Banquet Co.",
+    "location": "Amritsar, Punjab",
+    "pricePerPlate": 710,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "2fb37c69-3463-40dd-8722-fa5f5f69e210",
+    "name": "Lotus Station Works",
+    "location": "Indore, Madhya Pradesh",
+    "pricePerPlate": 249,
+    "cuisines": [
+      "BBQ",
+      "Continental",
+      "American"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "623f627c-1c79-4665-a5f2-c544c99fefa8",
+    "name": "Blue Flavors Co.",
+    "location": "Noida, Uttar Pradesh",
+    "pricePerPlate": 1476,
+    "cuisines": [
+      "BBQ",
+      "Continental",
+      "American"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "b64046a8-04d6-4f33-b2fb-38dbfb888e1c",
+    "name": "Signature Station Caterers",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 1221,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian",
+      "Street Food"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "cfcc9e28-2ca6-49c4-8ec4-1b4a34572861",
+    "name": "Golden Table Studios",
+    "location": "Nagpur, Maharashtra",
+    "pricePerPlate": 1458,
+    "cuisines": [
+      "North Indian",
+      "Mughlai",
+      "Chinese"
+    ],
+    "rating": 3.2
+  },
+  {
+    "id": "a88fce8b-c3eb-48bd-afdc-2a625727c367",
+    "name": "Epicure Palate Caterers",
+    "location": "Ludhiana, Punjab",
+    "pricePerPlate": 973,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean",
+      "Punjabi"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "d0677341-b1d4-4576-87ba-dee90b52eee0",
+    "name": "Maple & Thyme Caterers",
+    "location": "Nagpur, Maharashtra",
+    "pricePerPlate": 589,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental",
+      "Italian"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "ef7a2114-09f8-4c42-95f8-1d9a0dcf9d17",
+    "name": "Olive Grove Events",
+    "location": "Warangal, Telangana",
+    "pricePerPlate": 452,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "66bbcce9-6816-4494-bfdf-2d950d877a3c",
+    "name": "Classic Culina Studios",
+    "location": "Ranchi, Jharkhand",
+    "pricePerPlate": 1333,
+    "cuisines": [
+      "Kerala",
+      "Seafood",
+      "South Indian",
+      "North Indian"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": "2bbed988-5acb-4eb7-89ec-2a9cdc5ff930",
+    "name": "Pacific Rim Platters",
+    "location": "Thane, Maharashtra",
+    "pricePerPlate": 746,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental",
+      "Bengali"
+    ],
+    "rating": 3.4
+  },
+  {
+    "id": "440551b6-7afa-4023-9b24-50707d9cb4b6",
+    "name": "Urban Mezze Collective",
+    "location": "Bhubaneswar, Odisha",
+    "pricePerPlate": 751,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "2a90d2bd-c058-46c3-8e1c-fcdd9d9a80a1",
+    "name": "Velvet Palate Co.",
+    "location": "Nagpur, Maharashtra",
+    "pricePerPlate": 736,
+    "cuisines": [
+      "Vegan",
+      "Organic",
+      "Mediterranean",
+      "Kerala"
+    ],
+    "rating": 4.1
+  },
+  {
+    "id": "aebdbf23-361b-46b6-98e9-37f39121e0a4",
+    "name": "Emerald Events Events",
+    "location": "Faridabad, Haryana",
+    "pricePerPlate": 1369,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental",
+      "South Indian"
+    ],
+    "rating": 3.7
+  },
+  {
+    "id": "78219f71-f2f3-4ec8-b643-5f94e8819f82",
+    "name": "Tuscan Table Catering",
+    "location": "Nagpur, Maharashtra",
+    "pricePerPlate": 746,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental"
+    ],
+    "rating": 3.5
+  },
+  {
+    "id": "4e7e8ffc-5ca8-4eda-97e0-0f1b4dd2f758",
+    "name": "Royal Buffet Studios",
+    "location": "Warangal, Telangana",
+    "pricePerPlate": 205,
+    "cuisines": [
+      "South Indian",
+      "Chettinad",
+      "Continental"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "c70dc896-96c2-4efb-b7e2-1b77865aba6d",
+    "name": "Epicure Events Studios",
+    "location": "Pune, Maharashtra",
+    "pricePerPlate": 577,
+    "cuisines": [
+      "Italian",
+      "Mediterranean",
+      "Continental"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "862d36e2-c4be-474d-a125-3c2802976fc7",
+    "name": "Regal Gourmet Hospitality",
+    "location": "Surat, Gujarat",
+    "pricePerPlate": 1492,
+    "cuisines": [
+      "Hyderabadi",
+      "Mughlai",
+      "Andhra"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "31edbb99-ea31-4a43-bce2-cd6400397e32",
+    "name": "Royal Bistro House",
+    "location": "Bangalore, Karnataka",
+    "pricePerPlate": 661,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "f3f7525e-b770-44d4-bb8c-f014cd4fb3a0",
+    "name": "Blue Feast Caterers",
+    "location": "Mumbai, Maharashtra",
+    "pricePerPlate": 738,
+    "cuisines": [
+      "Japanese",
+      "Pan-Asian",
+      "Continental"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "9d604f6a-46d9-4c72-8547-b34fe1218819",
+    "name": "Epicure Station Caterers",
+    "location": "Noida, Uttar Pradesh",
+    "pricePerPlate": 859,
+    "cuisines": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian"
+    ],
+    "rating": 3
+  },
+  {
+    "id": "4e979d36-79b1-439a-9de4-194541b1ead6",
+    "name": "Epicure Culina Studios",
+    "location": "Ahmedabad, Gujarat",
+    "pricePerPlate": 643,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian",
+      "Italian"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "3d9802e6-b242-476e-943f-5ba1cd4ccca9",
+    "name": "Grand Catering House",
+    "location": "Jaipur, Rajasthan",
+    "pricePerPlate": 320,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian",
+      "Vegan"
+    ],
+    "rating": 4.9
+  },
+  {
+    "id": "5a58392e-def2-4851-8cd4-36f1e6b54009",
+    "name": "Prime Banquet Hospitality",
+    "location": "Hyderabad, Telangana",
+    "pricePerPlate": 364,
+    "cuisines": [
+      "Bengali",
+      "North Indian",
+      "Chinese"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "32686399-4682-4911-9e87-9c109039b3a9",
+    "name": "Blue Delights Works",
+    "location": "Hyderabad, Telangana",
+    "pricePerPlate": 793,
+    "cuisines": [
+      "Italian",
+      "Mediterranean",
+      "Continental",
+      "Jain"
+    ],
+    "rating": 4.2
+  },
+  {
+    "id": "fc3a880f-92f6-4680-92ab-5ce088546312",
+    "name": "Saffron Platter Collective",
+    "location": "Udaipur, Rajasthan",
+    "pricePerPlate": 459,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian",
+      "Italian"
+    ],
+    "rating": 3.1
+  },
+  {
+    "id": "12a2ae4c-a35d-41b1-8150-51e77d92a562",
+    "name": "Grand Dastarkhwan Events",
+    "location": "Bhopal, Madhya Pradesh",
+    "pricePerPlate": 353,
+    "cuisines": [
+      "Gujarati",
+      "Rajasthani",
+      "North Indian"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "0680dd2a-d265-40d1-b7f7-a94c8374d864",
+    "name": "Saffron Platter Studios",
+    "location": "Ahmedabad, Gujarat",
+    "pricePerPlate": 589,
+    "cuisines": [
+      "Lebanese",
+      "Mediterranean",
+      "Vegan",
+      "North Indian"
+    ],
+    "rating": 4.3
+  },
+  {
+    "id": "1b7cd1ec-c6b8-4bbd-8297-74b607a09d8b",
+    "name": "Prime Harvest Co.",
+    "location": "Chandigarh, Chandigarh",
+    "pricePerPlate": 480,
+    "cuisines": [
+      "Mexican",
+      "Italian",
+      "Continental",
+      "Japanese"
+    ],
+    "rating": 4.7
+  },
+  {
+    "id": "f2da6c62-14ea-4152-8356-f8cb7a3e7845",
+    "name": "Grand Cuisine Co.",
+    "location": "Pune, Maharashtra",
+    "pricePerPlate": 160,
+    "cuisines": [
+      "BBQ",
+      "Continental",
+      "American"
+    ],
+    "rating": 4.6
+  },
+  {
+    "id": "4a847901-986f-41e4-8df7-427bd740b8f5",
+    "name": "Lotus Celebrations Collective",
+    "location": "Kochi, Kerala",
+    "pricePerPlate": 421,
+    "cuisines": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian",
+      "Lebanese"
+    ],
+    "rating": 3.3
+  },
+  {
+    "id": "f8dc85af-ac4f-422e-a629-926347635faa",
+    "name": "Crimson Culina Studios",
+    "location": "Kolkata, West Bengal",
+    "pricePerPlate": 438,
+    "cuisines": [
+      "Kerala",
+      "Seafood",
+      "South Indian",
+      "Bengali"
+    ],
+    "rating": 4.5
+  },
+  {
+    "id": "eb9ee454-cd55-4c5d-a950-39131d6da566",
+    "name": "Silver Platter Studios",
+    "location": "Navi Mumbai, Maharashtra",
+    "pricePerPlate": 316,
+    "cuisines": [
+      "Mexican",
+      "Italian",
+      "Continental"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "299395bc-ad7b-4888-b4b7-abeb14e02e0d",
+    "name": "Prime Buffet House",
+    "location": "Mumbai, Maharashtra",
+    "pricePerPlate": 574,
+    "cuisines": [
+      "Jain",
+      "Gujarati",
+      "North Indian"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "72fc3519-2cae-4c2f-b6c8-54200c7cc25e",
+    "name": "Royal Delights Works",
+    "location": "Noida, Uttar Pradesh",
+    "pricePerPlate": 1067,
+    "cuisines": [
+      "Lebanese",
+      "Mediterranean",
+      "Vegan"
+    ],
+    "rating": 3.6
+  },
+  {
+    "id": "a1038a3b-2b5f-4560-8e58-255e40771aa5",
+    "name": "Classic Catering Hospitality",
+    "location": "Navi Mumbai, Maharashtra",
+    "pricePerPlate": 669,
+    "cuisines": [
+      "Awadhi",
+      "Mughlai",
+      "North Indian",
+      "Thai"
+    ],
+    "rating": 4.4
+  },
+  {
+    "id": "46aeb09a-579b-4b8e-87e0-5cdbb210ad3f",
+    "name": "Shivam Banquet",
+    "location": "Dombivli",
+    "pricePerPlate": 650,
+    "cuisines": [
+      "Indian",
+      "Chinese",
+      "Italian"
+    ],
+    "rating": 4.7
+  }
+]
