@@ -12,10 +12,7 @@ export default function Header() {
 
   useEffect(() => {
     const stored = typeof window !== 'undefined' ? localStorage.getItem('theme') : null;
-    const prefersDark = typeof window !== 'undefined'
-      ? window.matchMedia('(prefers-color-scheme: dark)').matches
-      : false;
-    const nextTheme = stored || (prefersDark ? 'dark' : 'light');
+    const nextTheme = stored || 'light';
     setTheme(nextTheme);
     document.documentElement.setAttribute('data-theme', nextTheme);
   }, []);

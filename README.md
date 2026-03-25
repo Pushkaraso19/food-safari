@@ -2,7 +2,7 @@
 
 A production-grade full-stack caterer discovery platform built with Next.js and Express.
 
-**[Live Demo](https://foodsafari-catererdirectory.netlify.app)** | **[GitHub Repository](https://github.com/Pushkaraso19/food-safari.git)**
+**[Live Demo](https://food-safari-catererdirectory.vercel.app/)** | **[GitHub Repository](https://github.com/Pushkaraso19/food-safari.git)**
 
 ## Overview
 
@@ -195,7 +195,7 @@ This project is deployed on:
    - **Start Command:** `npm start`
 4. Add environment variables:
    - `PORT` = `4000` (or leave empty for Render to assign)
-   - `FRONTEND_URL` = `https://foodsafari-catererdirectory.netlify.app`
+  - `FRONTEND_URL` = `https://food-safari-catererdirectory.vercel.app/`
 5. Deploy and note the backend URL (e.g., `https://your-backend.onrender.com`)
 
 ### Frontend Deployment (Netlify)
@@ -207,7 +207,7 @@ This project is deployed on:
    - **Publish directory:** `.next`
 3. Add environment variable:
    - `NEXT_PUBLIC_API_URL` = Your deployed backend URL from Render
-4. Deploy and your site will be live at `https://foodsafari-catererdirectory.netlify.app`
+4. Deploy and your site will be live at `https://food-safari-catererdirectory.vercel.app/`
 
 ### CORS Configuration
 
@@ -230,7 +230,7 @@ Ensure backend `FRONTEND_URL` environment variable matches your Netlify frontend
 ## Live Demo
 
 Experience the application live:
-- **Web App:** [https://foodsafari-catererdirectory.netlify.app](https://foodsafari-catererdirectory.netlify.app)
+- **Web App:** [https://food-safari-catererdirectory.vercel.app/](https://food-safari-catererdirectory.vercel.app/)
 - **Source Code:** [https://github.com/Pushkaraso19/food-safari.git](https://github.com/Pushkaraso19/food-safari.git)
 
 ## Author
