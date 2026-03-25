@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import { fetchCaterers } from '../../services/api';
 import CatererCard from '../../components/CatererCard';
 import SkeletonCard from '../../components/SkeletonCard';
@@ -27,7 +27,6 @@ export default function CaterersPage() {
   const [refreshTick, setRefreshTick] = useState(0);
   const [debouncedSearch, setDebouncedSearch] = useState('');
   const router = useRouter();
-  const searchParams = useSearchParams();
 
   const pageLimit = layout === 'grid' ? 12 : 10;
 
@@ -44,10 +43,10 @@ export default function CaterersPage() {
   }
 
   useEffect(() => {
-    if (searchParams.get('add') === '1') {
+    if (typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('add') === '1') {
       setModalOpen(true);
     }
-  }, [searchParams]);
+  }, []);
 
   useEffect(() => {
     if (!enquiryToast) return;
@@ -116,8 +115,8 @@ export default function CaterersPage() {
   function handleCloseModal() {
     setModalOpen(false);
 
-    if (searchParams.get('add') === '1') {
-      const params = new URLSearchParams(searchParams.toString());
+    if (typeof window !== 'undefined' && new URLSearchParams(window.location.search).get('add') === '1') {
+      const params = new URLSearchParams(window.location.search);
       params.delete('add');
       const nextQuery = params.toString();
       router.replace(nextQuery ? `/caterers?${nextQuery}` : '/caterers', { scroll: false });
