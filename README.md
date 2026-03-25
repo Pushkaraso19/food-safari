@@ -102,30 +102,65 @@ Sample request:
 
 ## Setup Instructions
 
-### 1) Clone Repository
+### Quick Start on Vercel (Recommended)
+
+The fastest way to get the project running is to deploy directly on Vercel:
+
+#### Frontend Deployment on Vercel
+
+1. Click **Deploy** on the [Vercel Dashboard](https://vercel.com/)
+2. Select your forked GitHub repository
+3. Configure:
+   - **Framework Preset:** Next.js
+   - **Root Directory:** `frontend`
+   - **Environment Variable:** `NEXT_PUBLIC_API_URL` = Your backend URL
+4. Click **Deploy** - your frontend will be live in seconds
+
+#### Backend Deployment on Render
+
+1. Visit [Render Dashboard](https://dashboard.render.com)
+2. Create a **New Web Service**
+3. Connect your GitHub repository
+4. Configure:
+   - **Name:** `food-safari-backend`
+   - **Root Directory:** `backend`
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+5. Set Environment Variables:
+   - `FRONTEND_URL` = Your Vercel deployment URL
+   - `PORT` = `4000`
+6. Deploy and note your backend URL
+
+---
+
+### Local Development Setup
+
+For local development and testing:
+
+#### 1) Clone Repository
 
 ```bash
 git clone https://github.com/Pushkaraso19/food-safari.git
-cd caterer-clean
+cd food-safari
 ```
 
-### 2) Install Backend Dependencies
+#### 2) Install Backend Dependencies
 
 ```bash
 cd backend
 npm install
 ```
 
-### 3) Install Frontend Dependencies
+#### 3) Install Frontend Dependencies
 
 ```bash
 cd ../frontend
 npm install
 ```
 
-### 4) Configure Environment Variables
+#### 4) Configure Environment Variables
 
-Copy templates and update values as needed:
+Copy templates and update values:
 
 ```bash
 cd ../backend
@@ -135,7 +170,7 @@ cd ../frontend
 cp .env.example .env.local
 ```
 
-### 5) Run Backend
+#### 5) Run Backend
 
 ```bash
 cd ../backend
@@ -144,7 +179,7 @@ npm run dev
 
 Backend runs at `http://localhost:4000`.
 
-### 6) Run Frontend
+#### 6) Run Frontend
 
 ```bash
 cd ../frontend
@@ -162,12 +197,23 @@ PORT=4000
 FRONTEND_URL=http://localhost:3000
 ```
 
+For production (Vercel/Render):
+```env
+PORT=4000
+FRONTEND_URL=https://your-vercel-app.vercel.app/
+```
+
 Template file: `backend/.env.example`
 
 ### Frontend (`frontend/.env.local`)
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:4000
+```
+
+For production (Vercel):
+```env
+NEXT_PUBLIC_API_URL=https://your-render-backend.onrender.com
 ```
 
 Template file: `frontend/.env.example`
@@ -181,9 +227,22 @@ Template file: `frontend/.env.example`
 
 ## Deployment and Hosting
 
-This project is deployed on:
-- **Frontend:** Netlify
+This project is fully hosted on **Vercel** for both frontend and backend deployment:
+- **Frontend:** Vercel (optimized for Next.js)
 - **Backend:** Render
+
+### Frontend Deployment (Vercel)
+
+The frontend is deployed on **Vercel**, a platform optimized for Next.js applications.
+
+1. Connect your GitHub repository on [Vercel](https://vercel.com/)
+2. Configure build settings:
+   - **Base directory:** `frontend`
+   - **Build command:** `npm run build`
+   - **Publish directory:** `.next`
+3. Add environment variable:
+   - `NEXT_PUBLIC_API_URL` = Your deployed backend URL from Render
+4. Deploy and your site will be live at `https://food-safari-catererdirectory.vercel.app/`
 
 ### Backend Deployment (Render)
 
@@ -198,9 +257,9 @@ This project is deployed on:
   - `FRONTEND_URL` = `https://food-safari-catererdirectory.vercel.app/`
 5. Deploy and note the backend URL (e.g., `https://your-backend.onrender.com`)
 
-### Frontend Deployment (Netlify)
+### Frontend Deployment (Vercel)
 
-1. Connect your GitHub repository on [Netlify](https://netlify.com)
+1. Connect your GitHub repository on [Vercel](https://vercel.com/)
 2. Configure build settings:
    - **Base directory:** `frontend`
    - **Build command:** `npm run build`
@@ -211,7 +270,7 @@ This project is deployed on:
 
 ### CORS Configuration
 
-Ensure backend `FRONTEND_URL` environment variable matches your Netlify frontend domain so API calls are allowed.
+Ensure backend `FRONTEND_URL` environment variable matches your Vercel frontend domain so API calls are allowed.
 
 ## Screenshots
 
