@@ -26,7 +26,7 @@ export default function SearchBar({ value, onChange }) {
         type="text"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search by name…"
+        placeholder="Search by name, cuisine, or state…"
         className="
           w-full h-9 pl-10 pr-9 rounded-lg shadow-sm
           bg-[var(--bg-muted)] border border-[var(--border)]

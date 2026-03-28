@@ -25,10 +25,18 @@ async function getAllCaterers(options = {}) {
 
   let caterers = await readCaterers();
 
-  // Search by caterer name (case-insensitive)
+  // Search by caterer name, cuisines, and location/state (case-insensitive)
   if (search) {
     const normalized = search.toLowerCase();
-    caterers = caterers.filter((c) => c.name.toLowerCase().includes(normalized));
+    caterers = caterers.filter((c) => {
+      const nameMatch = c.name.toLowerCase().includes(normalized);
+      const locationMatch = c.location.toLowerCase().includes(normalized);
+      const cuisineMatch = Array.isArray(c.cuisines)
+        ? c.cuisines.some((cuisine) => cuisine.toLowerCase().includes(normalized))
+        : false;
+
+      return nameMatch || locationMatch || cuisineMatch;
+    });
   }
 
   // Filter by optional price range
@@ -38,7 +46,7 @@ async function getAllCaterers(options = {}) {
   if (typeof maxPrice === 'number') {
     caterers = caterers.filter((c) => c.pricePerPlate <= maxPrice);
   }
-
+  
   // Apply requested sorting
   switch (sort) {
     case 'price_asc':
